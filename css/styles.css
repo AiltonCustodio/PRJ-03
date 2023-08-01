@@ -11,3 +11,73 @@ h1,h2,h3{
 p{
     color: #70747a;
 }
+
+/* navbar */
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    padding: 0 2rem;
+}
+
+nav{
+    position: relative;
+}
+.logo{
+    width: 50px;
+    margin-top: 15px;   
+}
+
+.navbar-itens{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;    
+}
+
+.navbar-itens li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.navbar-itens a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+.navbar-itens a:hover{
+    color: rgb(202, 206, 206);
+}
+.default-btn{
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+.navbar-itens .default-btn:hover{
+    background-color: #22bb5f;
+    color: #fff;
+}
+
+/* main banner */
+.main-banner{
+    background-image: url(../img/mainbanner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner>h1,p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 2px 2px 1px;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+.main-banner p{
+    32px
+}
