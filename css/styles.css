@@ -181,6 +181,12 @@ nav{
     height: 75px;
     line-height: 75px;
     cursor: pointer;
+    opacity: 0.8;
+}
+
+.plan-btn:hover{
+    color: rgb(73, 67, 67);
+    opacity: 1;
 }
 
 .plan .recommended{
@@ -226,4 +232,10 @@ nav{
     color: #fff;
     font-size: 24px;
     cursor: pointer;
+    opacity: 0.7;
+}
+
+.searchdomain-container input[type=submit]:hover{
+    opacity: 1;
+    color: rgb(73, 67, 67);
 }
