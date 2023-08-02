@@ -48,7 +48,7 @@ nav{
     transition: 0.5s;
 }
 .navbar-itens a:hover{
-    color: rgb(202, 206, 206);
+    color: rgb(205, 255, 255);
 }
 .default-btn{
     padding: 15px 20px;
@@ -208,7 +208,7 @@ nav{
 }
 
 .searchdomain-container p{
-    color:#d5d5d5;
+    color: #d5d5d5;
     font-size: 24px;
     margin-bottom:25px;
 }
@@ -232,12 +232,13 @@ nav{
     color: #fff;
     font-size: 24px;
     cursor: pointer;
-    opacity: 0.7;
+    /* opacity: 0.9; */
 }
 
 .searchdomain-container input[type=submit]:hover{
-    opacity: 1;
-    color: rgb(73, 67, 67);
+    /* opacity: 1; */
+    color: rgb(159, 148, 148);
+    background-color: #229951;
 }
 
 /* contact form */
@@ -281,7 +282,7 @@ nav{
 
 .contact-container input[type=submit]:hover{
     opacity: 1;
-    color: rgb(73, 67, 67);
+    color: rgb(204, 194, 194);
 }
 
 /* footer */
