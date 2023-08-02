@@ -316,7 +316,44 @@ footer{
 /*  celular 576px*/
 
 @media (max-width:576px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .navbar-itens li{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .services-container ul{
+        flex-direction: column
+    };
+
+    .main-banner p{
+        padding: 0 2rem;
+    }
     .plans-container{
-        flex
+        flex-direction: column;
+        width: 100%;   
+    }
+    .pricing-container{
+        padding: 30px 0;
+    }
+
+    .plan{
+        width: 100%;
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+    .contact-container{
+        padding: 3rem 2rem;
+    }
+    .contact-container input,
+    .contact-container textarea{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .searchdomain-container input[type="text"]{
+        width: 100%;
+        margin: 10px 0;
     }
 }
