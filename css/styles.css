@@ -352,8 +352,103 @@ footer{
         margin: 10px 0;
     }
 
+    .searchdomain-container h2{
+        font-size: 28px;
+    }
+    
+    .searchdomain-container p{
+        font-size: 20px;
+    }
+
     .searchdomain-container input[type="text"]{
         width: 100%;
+    }
+}
+
+
+/*  celular 325px*/
+
+@media (max-width:325px){
+    html,body{
+        overflow-x: hidden;
+    }
+
+    .main-banner{
+        padding: 5rem 0;
+    }
+
+    .main-banner p{
+        font-size: 20px;
+        padding: 0 2rem;
+    }
+
+    .logo{
+    
+        width: 50px;
+        margin-top: 15px;
+        margin-left: 0;   
+    }
+
+    .navbar-container{
+        padding: 0 1rem 2rem;
+    }
+    .navbar-itens{
+        font-size: 1rem;
+        margin-left: 0;
+    }
+    
+    .navbar-itens li{
+        margin: 0.5px;
+    }
+    .default-btn{
+        padding: 4px 8px;
+        border-radius: 2px;
+    }
+
+    .services-container{
+        padding: 1rem 0;
+    }
+
+    .services-container ul{
+        flex-direction: column;
+    }
+    
+    .plans-container{
+        flex-direction: column;
+        width: 100%;   
+    }
+    .pricing-container{
+        padding: 30px 0;
+    }
+
+    .plan{
+        width: 100%;
+        max-width: 100%;
+        margin-top: 1rem;
+    }
+    .contact-container{
+        padding: 3rem 2rem;
+    }
+    .contact-container input,
+    .contact-container textarea{
+        width: 100%;
         margin: 10px 0;
+    }
+
+    .searchdomain-container h2{
+        font-size: 28px;
+    }
+    
+    .searchdomain-container p{
+        font-size: 20px;
+    }
+    .searchdomain-container input{
+        width: 100%;
+    }
+
+    .searchdomain-container input[type="text"],
+    .searchdomain-container input[type="submit"]{
+        font-size: 1rem;
+        padding: 20px 2px;
     }
 }
